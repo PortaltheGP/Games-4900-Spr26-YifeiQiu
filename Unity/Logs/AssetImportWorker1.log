@@ -1,0 +1,911 @@
+Unity Editor version:    6000.2.15f1 (0707b6d1e918)
+Branch:                  6000.2/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 26.2 (Build 25C56)
+Darwin version:          25.2.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Date:                    2026-02-07T03:31:53Z
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-portal" at "2026-02-07T03:31:53.645009Z"
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/6000.2.15f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/portal/Github/Games-4900-Spr26-YifeiQiu/Unity
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+50152
+-licensingIpc
+LicenseClient-portal
+-job-worker-count
+3
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name AssetImport
+Successfully changed project path to: /Users/portal/Github/Games-4900-Spr26-YifeiQiu/Unity
+/Users/portal/Github/Games-4900-Spr26-YifeiQiu/Unity
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8758324288]  Target information:
+
+Player connection [8758324288]  * "[IP] 10.0.0.249 [Port] 0 [Flags] 2 [Guid] 470815268 [EditorId] 470815268 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-van-Portal.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8758324288] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8758324288] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.2.15f1 (0707b6d1e918)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.2.15f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/portal/Github/Games-4900-Spr26-YifeiQiu/Unity/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Mac GPU Family: 2
+Apple GPU Family: 7
+MSL Version: 3.0
+Has Float MSAA: 1
+Has Float Filtering: 1
+ReadWrite Texture Tier: 2
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.2.15f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.2.15f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.2.15f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56132
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/6000.2.15f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.2.15f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.2.15f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000574 seconds.
+- Loaded All Assemblies, in  0.312 seconds
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              a9fd05a554f14d0199273a5a392d30fd
+  Correlation Id:          a2b6b0cbfcf9f393cf88c4429d3d28f3
+  External correlation Id: 2138187993905313290
+  Machine Id:              eO9DKzB4f+hBc53wRjYSvxpYZsg=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-portal" (connect: 0.00s, validation: 0.01s, handshake: 0.87s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-portal-notifications" at "2026-02-07T03:31:54.519473Z"
+[Licensing::Module] Licensing Background thread has ended after 0.87s
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.300 seconds
+Domain Reload Profiling: 611ms
+	BeginReloadAssembly (106ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (129ms)
+		LoadAssemblies (106ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (126ms)
+			TypeCache.Refresh (125ms)
+				TypeCache.ScanAssembly (113ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (300ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (272ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (105ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[CoreBusinessMetrics] Unexpected thread when updating session info.
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 20066814446849-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.151 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.273 seconds
+Domain Reload Profiling: 424ms
+	BeginReloadAssembly (93ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (11ms)
+		LoadAssemblies (40ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (273ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (191ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (99ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launching external process: /Applications/Unity/Hub/Editor/6000.2.15f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4 unused Assets / (20.7 KB). Loaded Objects now: 504.
+Memory consumption went from 60.1 MB to 60.1 MB.
+Total: 4.331292 ms (FindLiveObjects: 0.019375 ms CreateObjectMapping: 0.003167 ms MarkObjects: 4.216750 ms  DeleteObjects: 0.090625 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 729.347612 seconds.
+  path: Assets/Settings/Mobile_RPAsset.asset
+  artifactKey: Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/Mobile_RPAsset.asset using Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c8912f9c39f07eb851e41e4cc0cbf8a5') in 0.052806375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Settings/Mobile_Renderer.asset
+  artifactKey: Guid(65bc7dbf4170f435aa868c779acfb082) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/Mobile_Renderer.asset using Guid(65bc7dbf4170f435aa868c779acfb082) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a168ebf514a7204e5ac123d16bf2a8bd') in 0.001554125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e4fc9035a2ed449ecc66c96fce7ec526') in 0.004729916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/TutorialInfo/Icons/URP.png
+  artifactKey: Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TutorialInfo/Icons/URP.png using Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd288c195a48122f0dd1a53370931692c') in 0.051824334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.678684 seconds.
+  path: Assets/Kenny3D/Models/OBJ format/building-t.mtl
+  artifactKey: Guid(932a6ab6149c44c0d92083e025895ee1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/OBJ format/building-t.mtl using Guid(932a6ab6149c44c0d92083e025895ee1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c1071155d7a5f3acf8c953e1b5c0b34c') in 0.011799291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Kenny3D/Models/GLB format/building-f.glb
+  artifactKey: Guid(57b01d5b6d4454682876b159f65dbd10) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/GLB format/building-f.glb using Guid(57b01d5b6d4454682876b159f65dbd10) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c4631eb5e00d3c923a4dc84a0673a045') in 0.001318458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Kenny3D/Models/OBJ format/chimney-basic.mtl
+  artifactKey: Guid(553bfdc1866be42b7a1793cfa3f68f0a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/OBJ format/chimney-basic.mtl using Guid(553bfdc1866be42b7a1793cfa3f68f0a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1b7f81c37cea1282641df12c77a1dc90') in 0.001407042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Kenny3D/Models/Textures/variation-b.png
+  artifactKey: Guid(b3a7092c2f4764dfdbc6bf6405d8a7d1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/Textures/variation-b.png using Guid(b3a7092c2f4764dfdbc6bf6405d8a7d1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '08d37f07da2fbbdeb8be1f0acfc8aff3') in 0.011887 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Kenny3D/Models/OBJ format/building-f.obj
+  artifactKey: Guid(824cd727ffb5744a890c8dc09f9e9503) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/OBJ format/building-f.obj using Guid(824cd727ffb5744a890c8dc09f9e9503) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '02066897fdd691233df31d3101dc036d') in 0.080004667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Kenny3D/Models/OBJ format/building-b.obj
+  artifactKey: Guid(5dea30a3951a445fdada8d3140907218) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/OBJ format/building-b.obj using Guid(5dea30a3951a445fdada8d3140907218) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '457daf3fdbc6d5a19b8299a4d3019c51') in 0.007287541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Kenny3D/Models/GLB format/building-b.glb
+  artifactKey: Guid(52a1b00df0d7a4009ad06409e597c1e9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/GLB format/building-b.glb using Guid(52a1b00df0d7a4009ad06409e597c1e9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '36f97db8b2e6276c43fc0af6c555fd3a') in 0.001543 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Kenny3D/Models/GLB format/chimney-small.glb
+  artifactKey: Guid(b7407017f1fe5484395186b4605f49b2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/GLB format/chimney-small.glb using Guid(b7407017f1fe5484395186b4605f49b2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '49f684a4b4881f726f71ae23471d09ea') in 0.0010775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Kenny3D/Models/FBX format
+  artifactKey: Guid(588a32f3cddce4f929687cada4b67724) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/FBX format using Guid(588a32f3cddce4f929687cada4b67724) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8f24861159705ca90836a18cce295067') in 0.000943208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Kenny3D/Models/OBJ format/building-k.obj
+  artifactKey: Guid(be9b51dabe2924349be738478614620a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/OBJ format/building-k.obj using Guid(be9b51dabe2924349be738478614620a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3170e0106375dfa11ce9d37e6169edf3') in 0.006962125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Kenny3D/Models/OBJ format/building-r.mtl
+  artifactKey: Guid(031862986e4b74bffb9ec186d752c3f8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/OBJ format/building-r.mtl using Guid(031862986e4b74bffb9ec186d752c3f8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f1cf657feae138f66b39267f9a7a8b55') in 0.001476875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Kenny3D/Models/GLB format/building-d.glb
+  artifactKey: Guid(072161210eddb48bea6054a4720b301d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/GLB format/building-d.glb using Guid(072161210eddb48bea6054a4720b301d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dc7432b6f0343e26a74ebcc66e5d68d4') in 0.001849625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Kenny3D/Models/GLB format/building-e.glb
+  artifactKey: Guid(af08fe5eeba994e9095ac5e81497277f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/GLB format/building-e.glb using Guid(af08fe5eeba994e9095ac5e81497277f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4037bcecc48842e517962f07bb0d54b6') in 0.001311542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Kenny3D/Models/OBJ format/chimney-large.obj
+  artifactKey: Guid(80c07d25391bd40e284dde5422dfcaf5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/OBJ format/chimney-large.obj using Guid(80c07d25391bd40e284dde5422dfcaf5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '48d70b3eab042c3a57929960d6bcf79a') in 0.008312083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Kenny3D/Models/OBJ format/building-k.mtl
+  artifactKey: Guid(75e2e4916183640dea701f45c0f4b61d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/OBJ format/building-k.mtl using Guid(75e2e4916183640dea701f45c0f4b61d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bab03f8d4aceaf9823710b5d20e45e36') in 0.00128825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Kenny3D/Models/GLB format/chimney-medium.glb
+  artifactKey: Guid(0b8b83ba180ef4b719e23e9ea49d2883) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/GLB format/chimney-medium.glb using Guid(0b8b83ba180ef4b719e23e9ea49d2883) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5e28947c53ec001ad783adb7a2923427') in 0.001398 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Kenny3D/Models/GLB format/building-q.glb
+  artifactKey: Guid(20749a1df6896441aa2ca96c1787b74e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/GLB format/building-q.glb using Guid(20749a1df6896441aa2ca96c1787b74e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8dd6e5140d8fb8cb2efdf55574530b0e') in 0.00109225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Kenny3D/Models/OBJ format
+  artifactKey: Guid(036d7c9cf4a19433bab399cb3bcba0e8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/OBJ format using Guid(036d7c9cf4a19433bab399cb3bcba0e8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3031f21e766e5c840af3d9d31945be2b') in 0.000855833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Kenny3D/Models/OBJ format/building-o.obj
+  artifactKey: Guid(3f25ba789670d451da5585aea3cbcaa4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/OBJ format/building-o.obj using Guid(3f25ba789670d451da5585aea3cbcaa4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '33233508927f21e8a5e8636544b53a58') in 0.006335208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Kenny3D/Models/OBJ format/building-l.obj
+  artifactKey: Guid(cdc6626a2d7f6444bb2a4bea4f8eaf73) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/OBJ format/building-l.obj using Guid(cdc6626a2d7f6444bb2a4bea4f8eaf73) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '51d7c279ada8724d32ed596ce0554bfa') in 0.006706792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Kenny3D/Models/FBX format/building-l.fbx
+  artifactKey: Guid(d89362063ff4e48a1986bedd067d3738) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/FBX format/building-l.fbx using Guid(d89362063ff4e48a1986bedd067d3738) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f88af42fd9e476c1214a55e8c448c9a6') in 0.012553167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Kenny3D/Models/OBJ format/chimney-large.mtl
+  artifactKey: Guid(3a4381763981d4abf81a570636ab053b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/OBJ format/chimney-large.mtl using Guid(3a4381763981d4abf81a570636ab053b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9580ac2237cc6ae639c36dcadcd971ab') in 0.001331459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Kenny3D/Models
+  artifactKey: Guid(13a0c7590205d4840874100fe77b0e2a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models using Guid(13a0c7590205d4840874100fe77b0e2a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0bf9029902c79a5cd19fe2c7526c808d') in 0.001435625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Kenny3D/Models/FBX format/chimney-medium.fbx
+  artifactKey: Guid(c880e91e0eb2748a1927dd6f8d75a960) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/FBX format/chimney-medium.fbx using Guid(c880e91e0eb2748a1927dd6f8d75a960) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd849905382c14b92df9c320891aa0d11') in 0.008551208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Kenny3D/Models/GLB format/building-o.glb
+  artifactKey: Guid(41e62897ee939486ca84cdc3b8d0dd90) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/GLB format/building-o.glb using Guid(41e62897ee939486ca84cdc3b8d0dd90) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b5253102b3e84a1a7c779ed7c02ecd9f') in 0.001653042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Kenny3D/Models/OBJ format/building-g.obj
+  artifactKey: Guid(ca92a1c53f4ed4b509905707a64b68af) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/OBJ format/building-g.obj using Guid(ca92a1c53f4ed4b509905707a64b68af) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7e081048b74f742325ad5561dce14341') in 0.007804667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Kenny3D/Models/Textures/variation-c.png
+  artifactKey: Guid(b1dff98142e664848bd6c48f6e775682) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/Textures/variation-c.png using Guid(b1dff98142e664848bd6c48f6e775682) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '062edd8ed13c963f197b800e8aa25d62') in 0.00587575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Kenny3D/Models/FBX format/building-m.fbx
+  artifactKey: Guid(d157a69180b40450c8f488bb24e32ab6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/FBX format/building-m.fbx using Guid(d157a69180b40450c8f488bb24e32ab6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2ccd8298ace7cea66bb0d374866f5f82') in 0.009321958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Kenny3D/Models/FBX format/building-b.fbx
+  artifactKey: Guid(c7f439b18bbd946d09062b501707f487) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/FBX format/building-b.fbx using Guid(c7f439b18bbd946d09062b501707f487) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ef038f407f75415e1a6824d7a460dbb9') in 0.00872525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Kenny3D/Models/FBX format/building-h.fbx
+  artifactKey: Guid(8a2f74c6fbd9742b3b0e0315ff9a4a40) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/FBX format/building-h.fbx using Guid(8a2f74c6fbd9742b3b0e0315ff9a4a40) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '56aeeaa37d6255043b48e7cc5070db2c') in 0.008487792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Kenny3D/Models/FBX format/building-a.fbx
+  artifactKey: Guid(c8634ede7e4cb4765837bdebb519c2ba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/FBX format/building-a.fbx using Guid(c8634ede7e4cb4765837bdebb519c2ba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6e89dbd198eaec13a4316d26798e0753') in 0.008906458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Kenny3D/Models/OBJ format/chimney-medium.obj
+  artifactKey: Guid(d35f1b027aa184962ab07f22b72c0d94) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/OBJ format/chimney-medium.obj using Guid(d35f1b027aa184962ab07f22b72c0d94) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd1bc0ea5dacf7a6762c80d442e42fbaf') in 0.006842166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Kenny3D/Models/Textures/variation-a.png
+  artifactKey: Guid(98313e25b968f4ab0a631117f5f06c74) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/Textures/variation-a.png using Guid(98313e25b968f4ab0a631117f5f06c74) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7916cbbe6a277fe685d5547618b0aa55') in 0.006040625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Kenny3D/Models/FBX format/building-o.fbx
+  artifactKey: Guid(336234104fbc0492b9aa729b706a18ba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/FBX format/building-o.fbx using Guid(336234104fbc0492b9aa729b706a18ba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '995706e016566d6d6931796d53a3efc5') in 0.009181041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Kenny3D/Models/OBJ format/chimney-small.obj
+  artifactKey: Guid(c71198c78450d4098bbcd8ad2af1ab47) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/OBJ format/chimney-small.obj using Guid(c71198c78450d4098bbcd8ad2af1ab47) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0a9201c6c3eeacdaddfc5b99696604ae') in 0.006565042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Kenny3D/Models/OBJ format/building-b.mtl
+  artifactKey: Guid(8226e2b0f36b545dab106fcf9b1fa5bd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/OBJ format/building-b.mtl using Guid(8226e2b0f36b545dab106fcf9b1fa5bd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '060a3f3d8321eca740533945b82e67c7') in 0.001275834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Kenny3D/Models/GLB format/building-s.glb
+  artifactKey: Guid(5a6cb3f09ea694a5d9cece6b86d30570) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/GLB format/building-s.glb using Guid(5a6cb3f09ea694a5d9cece6b86d30570) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8424d3ef7b0b52a85f719e569b0b5acf') in 0.001225083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Kenny3D/Models/OBJ format/building-t.obj
+  artifactKey: Guid(ba8cb97ba0bb44afb9a2d73645a2d404) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/OBJ format/building-t.obj using Guid(ba8cb97ba0bb44afb9a2d73645a2d404) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3e8af16e3d0b89d68bc580a336fdb4ea') in 0.00682975 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Kenny3D/Models/OBJ format/building-e.mtl
+  artifactKey: Guid(bb3bdb26fe5084055b2b1636db15a041) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/OBJ format/building-e.mtl using Guid(bb3bdb26fe5084055b2b1636db15a041) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'de3f49737834922ae7c32f8d340dc4a9') in 0.001412625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Kenny3D/Models/OBJ format/detail-tank.obj
+  artifactKey: Guid(5ce143b65058b417bab19323469e5ebd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/OBJ format/detail-tank.obj using Guid(5ce143b65058b417bab19323469e5ebd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'af1b7e52efab35b2c3f6b882e5330eaa') in 0.006867041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Kenny3D/Models/OBJ format/building-i.obj
+  artifactKey: Guid(961ad069076e1494cae0d245d43014c6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/OBJ format/building-i.obj using Guid(961ad069076e1494cae0d245d43014c6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eb047dd9ea6fd5b8432b2a92c94b1fe4') in 0.006735375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Kenny3D/Models/GLB format/Textures/colormap.png
+  artifactKey: Guid(356e020080b6a4c0c86ca695c255faf8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/GLB format/Textures/colormap.png using Guid(356e020080b6a4c0c86ca695c255faf8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '46f214674319f54ff75ed73eb1b8ae42') in 0.006659833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Kenny3D/Models/OBJ format/building-i.mtl
+  artifactKey: Guid(7a9e6310aa277443c9e6c6375db39176) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/OBJ format/building-i.mtl using Guid(7a9e6310aa277443c9e6c6375db39176) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '244c3f04d413bccf5490fdbaf964dd1c') in 0.001476042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Kenny3D/Models/OBJ format/building-r.obj
+  artifactKey: Guid(546d35824dfca43cfbd31ce77e1f9e96) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/OBJ format/building-r.obj using Guid(546d35824dfca43cfbd31ce77e1f9e96) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd4a4d5dda416225d0490e2438b4250e5') in 0.006994709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Kenny3D/Models/OBJ format/building-h.obj
+  artifactKey: Guid(56fac2cb0ee1f47c3bf4810550c80a99) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/OBJ format/building-h.obj using Guid(56fac2cb0ee1f47c3bf4810550c80a99) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9b20b431d737c1fd729adac994b9b59f') in 0.008191709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Kenny3D/Models/OBJ format/building-q.mtl
+  artifactKey: Guid(92e385e6583ce419895cf70ce34316dd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/OBJ format/building-q.mtl using Guid(92e385e6583ce419895cf70ce34316dd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cf8ebd0c3d9f6f9d171702c494a27a3d') in 0.001959792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Kenny3D/Models/GLB format/building-k.glb
+  artifactKey: Guid(e7c797ceae790405f80a73bcad8ba19b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/GLB format/building-k.glb using Guid(e7c797ceae790405f80a73bcad8ba19b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8a3c0a050a27be8e8988bf72c538c837') in 0.001498375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Kenny3D/Models/GLB format
+  artifactKey: Guid(cfc67fe827dd6404ba4801c2cbc14c5a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/GLB format using Guid(cfc67fe827dd6404ba4801c2cbc14c5a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b2d44ee6f2ffd33103f4cc672bb1d275') in 0.001186208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Kenny3D/Models/OBJ format/building-g.mtl
+  artifactKey: Guid(696f978aed15c43b7a67ee333bbdeef7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/OBJ format/building-g.mtl using Guid(696f978aed15c43b7a67ee333bbdeef7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '59e36a38731b0bc7fd5e21ef64d3a2cf') in 0.0013405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Kenny3D/Models/FBX format/detail-tank.fbx
+  artifactKey: Guid(65dcdca2fcbef41899e92903795fa244) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/FBX format/detail-tank.fbx using Guid(65dcdca2fcbef41899e92903795fa244) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bccfab29d00bcc4b3ca43cdc4b8fbb0c') in 0.008646041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Kenny3D/Models/OBJ format/building-o.mtl
+  artifactKey: Guid(6d177d2490c6342bf8b10464c43ddc9b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/OBJ format/building-o.mtl using Guid(6d177d2490c6342bf8b10464c43ddc9b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fdf1e355513bed8d4aac1da562761fda') in 0.001083125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Kenny3D/Models/GLB format/building-i.glb
+  artifactKey: Guid(a37aa79f958fb47d2ab40fdcffbe5432) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/GLB format/building-i.glb using Guid(a37aa79f958fb47d2ab40fdcffbe5432) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dd9af0ae55f25d457a654ad6d4873bb3') in 0.001268166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Kenny3D/Models/FBX format/building-j.fbx
+  artifactKey: Guid(ccd3c257d53fb449d9ff497ce8fe7ec9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/FBX format/building-j.fbx using Guid(ccd3c257d53fb449d9ff497ce8fe7ec9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '686c0933b9130e3b0319b89c2554c40e') in 0.007799667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Kenny3D/Models/GLB format/building-p.glb
+  artifactKey: Guid(0b83cf0d0e90647878076013b117db8f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/GLB format/building-p.glb using Guid(0b83cf0d0e90647878076013b117db8f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd8e3483b0595c967c1b1b5fed7d896db') in 0.001230125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.157021 seconds.
+  path: Assets/Kenny3D/Models/OBJ format/detail-tank.mtl
+  artifactKey: Guid(4b44e37bd8bcc4cd29cc18ab391f76e1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/OBJ format/detail-tank.mtl using Guid(4b44e37bd8bcc4cd29cc18ab391f76e1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd0ea39c6ae33b10837bcc3b249c626ab') in 0.002085542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Kenny3D/Models/OBJ format/building-l.mtl
+  artifactKey: Guid(b6195ea7375b94cdf9259dc968949891) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/OBJ format/building-l.mtl using Guid(b6195ea7375b94cdf9259dc968949891) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '530adc4d729e86b1f6c73a38abac4e1c') in 0.001054875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Kenny3D/Models/FBX format/Textures/colormap.png
+  artifactKey: Guid(f2e11d86b7d6f48b4be38485c20262b1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/FBX format/Textures/colormap.png using Guid(f2e11d86b7d6f48b4be38485c20262b1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e07fa0a83e53fd29763b2b6f1a7d7460') in 0.006159334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Kenny3D/Models/OBJ format/building-e.obj
+  artifactKey: Guid(3be4f840a39d249238e48e006a8c9168) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/OBJ format/building-e.obj using Guid(3be4f840a39d249238e48e006a8c9168) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ab45dede9c2df416bf6df4e21b931473') in 0.007582875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Kenny3D/Models/GLB format/building-g.glb
+  artifactKey: Guid(738066eb2c0d04e4c834b9a27d56a644) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/GLB format/building-g.glb using Guid(738066eb2c0d04e4c834b9a27d56a644) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'df6876d138077ddd23379fabc082de49') in 0.001309 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Kenny3D/Models/GLB format/building-a.glb
+  artifactKey: Guid(f11d86efdedf34727b8973f42ff6a89f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/GLB format/building-a.glb using Guid(f11d86efdedf34727b8973f42ff6a89f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '265cb12f74ecf68b6062e331ac256616') in 0.001424167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Kenny3D/Models/OBJ format/building-c.obj
+  artifactKey: Guid(cb7935798ac844544b3f6cd67439898d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kenny3D/Models/OBJ format/building-c.obj using Guid(cb7935798ac844544b3f6cd67439898d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2eea6e5ea142ca14af8fb78c59c15d3b') in 0.006484959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.510111 seconds.
+  path: Assets/Kenny3D/Models/OBJ format/building-b.obj
+  artifactKey: Guid(5dea30a3951a445fdada8d3140907218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny3D/Models/OBJ format/building-b.obj using Guid(5dea30a3951a445fdada8d3140907218) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1bd2a7b40219ba6d368f6e16574572ee') in 0.565817416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Kenny3D/Models/OBJ format/building-i.obj
+  artifactKey: Guid(961ad069076e1494cae0d245d43014c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny3D/Models/OBJ format/building-i.obj using Guid(961ad069076e1494cae0d245d43014c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32cf4bf71c3371fbc335f34baa7d3d1f') in 0.011964458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Kenny3D/Models/OBJ format/building-e.obj
+  artifactKey: Guid(3be4f840a39d249238e48e006a8c9168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny3D/Models/OBJ format/building-e.obj using Guid(3be4f840a39d249238e48e006a8c9168) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd3279f458ad26b9cf103c54b73b6cc2e') in 0.01263225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Kenny3D/Models/OBJ format/building-f.obj
+  artifactKey: Guid(824cd727ffb5744a890c8dc09f9e9503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny3D/Models/OBJ format/building-f.obj using Guid(824cd727ffb5744a890c8dc09f9e9503) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb7bbc07041dce6c5e269d82819cec5e') in 0.012121125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Kenny3D/Models/OBJ format/building-g.obj
+  artifactKey: Guid(ca92a1c53f4ed4b509905707a64b68af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny3D/Models/OBJ format/building-g.obj using Guid(ca92a1c53f4ed4b509905707a64b68af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aec0a8350885c8c777b35d2ccaac4384') in 0.012233833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Kenny3D/Models/OBJ format/building-c.obj
+  artifactKey: Guid(cb7935798ac844544b3f6cd67439898d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny3D/Models/OBJ format/building-c.obj using Guid(cb7935798ac844544b3f6cd67439898d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '270edc9aeff1263299c10ebbf1ec022b') in 0.011999917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Kenny3D/Models/OBJ format/building-n.obj
+  artifactKey: Guid(452c9b64a87f4409585acdd8cc896fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny3D/Models/OBJ format/building-n.obj using Guid(452c9b64a87f4409585acdd8cc896fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '37c6809186964f2ad3e7ad10ad381611') in 0.012079209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 204.830275 seconds.
+  path: Assets/Kenny3D/Models/FBX format/building-b.fbx
+  artifactKey: Guid(c7f439b18bbd946d09062b501707f487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny3D/Models/FBX format/building-b.fbx using Guid(c7f439b18bbd946d09062b501707f487) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da4604cae11083291ed77d68cb2d52ba') in 0.018255667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Kenny3D/Models/FBX format/building-g.fbx
+  artifactKey: Guid(185d3a4233e5b4c449ebfac3fb568e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny3D/Models/FBX format/building-g.fbx using Guid(185d3a4233e5b4c449ebfac3fb568e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '316bf27f6aeab9f14e387a48827764c2') in 0.011406083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Kenny3D/Models/FBX format/building-t.fbx
+  artifactKey: Guid(5ee86fff6c027404b9a3aa006c47402e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny3D/Models/FBX format/building-t.fbx using Guid(5ee86fff6c027404b9a3aa006c47402e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b05d2fbce441d150751252428d6bae7c') in 0.009774083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Kenny3D/Models/FBX format/building-r.fbx
+  artifactKey: Guid(a0f023aab535a4a2fa64e9543a1dc211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny3D/Models/FBX format/building-r.fbx using Guid(a0f023aab535a4a2fa64e9543a1dc211) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e447bc41307860ade31190fd783ef46') in 0.010477416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Kenny3D/Models/FBX format/building-l.fbx
+  artifactKey: Guid(d89362063ff4e48a1986bedd067d3738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny3D/Models/FBX format/building-l.fbx using Guid(d89362063ff4e48a1986bedd067d3738) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2bc9f0bd4a00232f4720eec644e8887b') in 0.01211925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Kenny3D/Models/FBX format/building-j.fbx
+  artifactKey: Guid(ccd3c257d53fb449d9ff497ce8fe7ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny3D/Models/FBX format/building-j.fbx using Guid(ccd3c257d53fb449d9ff497ce8fe7ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38e9c697cbcef1da186debaf0b022805') in 0.00975125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Kenny3D/Models/FBX format/building-s.fbx
+  artifactKey: Guid(1aa7f7ce377d3429e9d6fe3caa20d2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny3D/Models/FBX format/building-s.fbx using Guid(1aa7f7ce377d3429e9d6fe3caa20d2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e572f02be07611cbe497ea2a85bfd60') in 0.010528583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Kenny3D/Models/FBX format/chimney-small.fbx
+  artifactKey: Guid(fe41ac50d68a94a5eb99ee00d83ba973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny3D/Models/FBX format/chimney-small.fbx using Guid(fe41ac50d68a94a5eb99ee00d83ba973) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5fb7fb2d29a2efe33bbe36a34832d85') in 0.011750333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Kenny3D/Models/FBX format/building-n.fbx
+  artifactKey: Guid(18e78ea4f11d3482da093f014694ee91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny3D/Models/FBX format/building-n.fbx using Guid(18e78ea4f11d3482da093f014694ee91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f73ad09659e26f2dc05ebcace6e3f8a') in 0.009852458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Kenny3D/Models/FBX format/detail-tank.fbx
+  artifactKey: Guid(65dcdca2fcbef41899e92903795fa244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny3D/Models/FBX format/detail-tank.fbx using Guid(65dcdca2fcbef41899e92903795fa244) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42853925517edd167401bfce97b0ce83') in 0.009817667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Kenny3D/Models/FBX format/building-d.fbx
+  artifactKey: Guid(ce4b4d275dfe84f20a405dd45f427033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny3D/Models/FBX format/building-d.fbx using Guid(ce4b4d275dfe84f20a405dd45f427033) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02737480fe328e19fd7364c172ab8335') in 0.011326042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Kenny3D/Models/FBX format/building-h.fbx
+  artifactKey: Guid(8a2f74c6fbd9742b3b0e0315ff9a4a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny3D/Models/FBX format/building-h.fbx using Guid(8a2f74c6fbd9742b3b0e0315ff9a4a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e31e9affe1aa17a685b3b4d69613772') in 0.011666708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.855905 seconds.
+  path: Assets/Kenny3D/Models/OBJ format/building-q.obj
+  artifactKey: Guid(c298afba5cb1941cca01bcb5d1727eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny3D/Models/OBJ format/building-q.obj using Guid(c298afba5cb1941cca01bcb5d1727eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'edd940f6d344839c978108b3b59791cf') in 0.015550459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Kenny3D/Models/OBJ format/building-s.obj
+  artifactKey: Guid(dec7aa8ae13754290a64c940eeaac598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny3D/Models/OBJ format/building-s.obj using Guid(dec7aa8ae13754290a64c940eeaac598) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '343830578198aec132e9c2ca5c1c72c1') in 0.014883917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
