@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3 uid="uid://c74kwy2p56wld"]
+[gd_scene format=3 uid="uid://c74kwy2p56wld"]
 
 [ext_resource type="PackedScene" uid="uid://syhwcruwuoto" path="res://Kenny3D/FBX format/building-a.fbx" id="1_a0tk4"]
 [ext_resource type="PackedScene" uid="uid://dw366u7yhpeog" path="res://Kenny3D/FBX format/building-b.fbx" id="2_r3fl7"]
@@ -12,41 +12,52 @@
 [ext_resource type="PackedScene" uid="uid://pedcnykmwc2k" path="res://Kenny3D/FBX format/building-j.fbx" id="10_i0g27"]
 [ext_resource type="PackedScene" uid="uid://dy2ynfm18c3am" path="res://Kenny3D/FBX format/building-k.fbx" id="11_ealrb"]
 [ext_resource type="PackedScene" uid="uid://2fdi4347065e" path="res://Kenny3D/FBX format/building-l.fbx" id="12_jsnrv"]
+[ext_resource type="Script" uid="uid://cyeyiqjgcr233" path="res://Caller.gd" id="13_wlxy5"]
+[ext_resource type="Script" uid="uid://5g37b7e8m3vm" path="res://Receiver.gd" id="14_3v7ru"]
 
-[node name="Node3D" type="Node3D"]
+[node name="Node3D" type="Node3D" unique_id=455757390]
 
-[node name="building-a" parent="." instance=ExtResource("1_a0tk4")]
+[node name="building-a" parent="." unique_id=1224038008 instance=ExtResource("1_a0tk4")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.6090245, 1.1920929e-07, -0.40375423)
 
-[node name="building-b" parent="building-a" instance=ExtResource("2_r3fl7")]
+[node name="building-b" parent="building-a" unique_id=1995318590 instance=ExtResource("2_r3fl7")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.9975775, -1.1920929e-07, 0.03913045)
 
-[node name="building-c" parent="building-a" instance=ExtResource("3_jka67")]
+[node name="building-c" parent="building-a" unique_id=1507887855 instance=ExtResource("3_jka67")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.3146677, 0, -0.53321075)
 
-[node name="building-d" parent="." instance=ExtResource("4_cdqbm")]
+[node name="building-d" parent="." unique_id=2139221153 instance=ExtResource("4_cdqbm")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.8441856, 0, 1.597753)
 
-[node name="building-e" parent="building-d" instance=ExtResource("5_imku0")]
+[node name="building-e" parent="building-d" unique_id=629630563 instance=ExtResource("5_imku0")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3146513, 0, -0.20469141)
 
-[node name="building-f" parent="building-d/building-e" instance=ExtResource("6_wlxy5")]
+[node name="building-f" parent="building-d/building-e" unique_id=1040765304 instance=ExtResource("6_wlxy5")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.1500645, 0, 0.0574975)
 
-[node name="building-g" parent="building-d/building-e/building-f" instance=ExtResource("7_3v7ru")]
+[node name="building-g" parent="building-d/building-e/building-f" unique_id=183839737 instance=ExtResource("7_3v7ru")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3012305, 0, 0.069931984)
 
-[node name="building-h" parent="." instance=ExtResource("8_tcnuu")]
+[node name="building-h" parent="." unique_id=1113695338 instance=ExtResource("8_tcnuu")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.9673377, 0, 3.2271671)
 
-[node name="building-i" parent="." instance=ExtResource("9_tuemg")]
+[node name="building-i" parent="." unique_id=325499946 instance=ExtResource("9_tuemg")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.7022855, 0, 3.338488)
 
-[node name="building-j" parent="." instance=ExtResource("10_i0g27")]
+[node name="building-j" parent="." unique_id=587759398 instance=ExtResource("10_i0g27")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.87534755, 0, 3.2975707)
 
-[node name="building-k" parent="building-j" instance=ExtResource("11_ealrb")]
+[node name="building-k" parent="building-j" unique_id=558599384 instance=ExtResource("11_ealrb")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.77877074, 0, 0.1129539)
 
-[node name="building-l" parent="." instance=ExtResource("12_jsnrv")]
+[node name="building-l" parent="." unique_id=1745379497 instance=ExtResource("12_jsnrv")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.262516, 0, 1.2152176)
+
+[node name="Caller" type="Node3D" parent="." unique_id=2078068475 node_paths=PackedStringArray("receiver")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.927298, 2.492249, 0)
+script = ExtResource("13_wlxy5")
+receiver = NodePath("../Receiver")
+
+[node name="Receiver" type="Node3D" parent="." unique_id=1724583388]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.307751, 2.979813, 0)
+script = ExtResource("14_3v7ru")
