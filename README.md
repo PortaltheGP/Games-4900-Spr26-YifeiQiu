@@ -1,0 +1,1 @@
+For some reason, the Unity.gitignore isnt working, it cannot ignore the "Library" folder and continues to commit that to github, so I had to specificly creat a gitignore file in the main floder in order to ignore the floder.
