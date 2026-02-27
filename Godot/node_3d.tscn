@@ -1,63 +1,73 @@
 [gd_scene format=3 uid="uid://c74kwy2p56wld"]
 
-[ext_resource type="PackedScene" uid="uid://syhwcruwuoto" path="res://Kenny3D/FBX format/building-a.fbx" id="1_a0tk4"]
-[ext_resource type="PackedScene" uid="uid://dw366u7yhpeog" path="res://Kenny3D/FBX format/building-b.fbx" id="2_r3fl7"]
-[ext_resource type="PackedScene" uid="uid://bu6r6ps753qgg" path="res://Kenny3D/FBX format/building-c.fbx" id="3_jka67"]
-[ext_resource type="PackedScene" uid="uid://mndvqjy0kb8x" path="res://Kenny3D/FBX format/building-d.fbx" id="4_cdqbm"]
-[ext_resource type="PackedScene" uid="uid://dbhsmiaq4vpgr" path="res://Kenny3D/FBX format/building-e.fbx" id="5_imku0"]
-[ext_resource type="PackedScene" uid="uid://bfjrdrs7wkar2" path="res://Kenny3D/FBX format/building-f.fbx" id="6_wlxy5"]
-[ext_resource type="PackedScene" uid="uid://nhactnum7orq" path="res://Kenny3D/FBX format/building-g.fbx" id="7_3v7ru"]
-[ext_resource type="PackedScene" uid="uid://b07wdfmoew3ym" path="res://Kenny3D/FBX format/building-h.fbx" id="8_tcnuu"]
-[ext_resource type="PackedScene" uid="uid://dd7dj3ah70838" path="res://Kenny3D/FBX format/building-i.fbx" id="9_tuemg"]
-[ext_resource type="PackedScene" uid="uid://pedcnykmwc2k" path="res://Kenny3D/FBX format/building-j.fbx" id="10_i0g27"]
-[ext_resource type="PackedScene" uid="uid://dy2ynfm18c3am" path="res://Kenny3D/FBX format/building-k.fbx" id="11_ealrb"]
-[ext_resource type="PackedScene" uid="uid://2fdi4347065e" path="res://Kenny3D/FBX format/building-l.fbx" id="12_jsnrv"]
-[ext_resource type="Script" uid="uid://cyeyiqjgcr233" path="res://Caller.gd" id="13_wlxy5"]
-[ext_resource type="Script" uid="uid://5g37b7e8m3vm" path="res://Receiver.gd" id="14_3v7ru"]
+[ext_resource type="Script" uid="uid://b8ms21bgmrhcl" path="res://CharacterController.gd" id="1_a202f"]
+[ext_resource type="Script" uid="uid://caympebunmwfo" path="res://Coin.gd" id="1_noarx"]
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_a0tk4"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_noarx"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_4xowi"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_a202f"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_4xowi"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_a202f"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_a202f"]
 
 [node name="Node3D" type="Node3D" unique_id=455757390]
 
-[node name="building-a" parent="." unique_id=1224038008 instance=ExtResource("1_a0tk4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.6090245, 1.1920929e-07, -0.40375423)
+[node name="Coin" type="Area3D" parent="." unique_id=204131010]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5116162, -9.383831)
+disable_mode = 2
+script = ExtResource("1_noarx")
 
-[node name="building-b" parent="building-a" unique_id=1995318590 instance=ExtResource("2_r3fl7")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.9975775, -1.1920929e-07, 0.03913045)
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Coin" unique_id=1326243761]
+transform = Transform3D(1, 0, 0, 0, -8.742278e-09, -1, 0, 0.2, -4.371139e-08, 0, -0.0025529861, 0.014291763)
+mesh = SubResource("CylinderMesh_a0tk4")
 
-[node name="building-c" parent="building-a" unique_id=1507887855 instance=ExtResource("3_jka67")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.3146677, 0, -0.53321075)
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Coin" unique_id=2063287335]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0)
+shape = SubResource("CylinderShape3D_noarx")
 
-[node name="building-d" parent="." unique_id=2139221153 instance=ExtResource("4_cdqbm")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.8441856, 0, 1.597753)
+[node name="CharacterBody3D" type="CharacterBody3D" parent="." unique_id=1660986035 groups=["Player"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5116162, 0)
+disable_mode = 2
+script = ExtResource("1_a202f")
 
-[node name="building-e" parent="building-d" unique_id=629630563 instance=ExtResource("5_imku0")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3146513, 0, -0.20469141)
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D" unique_id=926440566]
+shape = SubResource("CapsuleShape3D_4xowi")
 
-[node name="building-f" parent="building-d/building-e" unique_id=1040765304 instance=ExtResource("6_wlxy5")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.1500645, 0, 0.0574975)
+[node name="MeshInstance3D" type="MeshInstance3D" parent="CharacterBody3D" unique_id=413037981]
+mesh = SubResource("CapsuleMesh_a202f")
 
-[node name="building-g" parent="building-d/building-e/building-f" unique_id=183839737 instance=ExtResource("7_3v7ru")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3012305, 0, 0.069931984)
+[node name="SpringArm" type="SpringArm3D" parent="CharacterBody3D" unique_id=477732608]
+transform = Transform3D(1, 0, 0, 0, 0.90058446, 0.43468106, 0, -0.43468106, 0.90058446, 0, 0, 0)
+spring_length = 4.5
 
-[node name="building-h" parent="." unique_id=1113695338 instance=ExtResource("8_tcnuu")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.9673377, 0, 3.2271671)
+[node name="Camera" type="Camera3D" parent="CharacterBody3D/SpringArm" unique_id=1301681759]
+transform = Transform3D(1, 0, 0, 0, 0.9872505, 0.15917471, 0, -0.15917471, 0.9872505, 0, 1.4240842, 2.1847808)
 
-[node name="building-i" parent="." unique_id=325499946 instance=ExtResource("9_tuemg")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.7022855, 0, 3.338488)
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=834391046]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 7.2261972, 11.821163)
 
-[node name="building-j" parent="." unique_id=587759398 instance=ExtResource("10_i0g27")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.87534755, 0, 3.2975707)
+[node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=224841625]
 
-[node name="building-k" parent="building-j" unique_id=558599384 instance=ExtResource("11_ealrb")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.77877074, 0, 0.1129539)
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D" unique_id=459204418]
+transform = Transform3D(26.633, 0, 0, 0, 8.592, 0, 0, 0, 20, 0, 0, 0)
+mesh = SubResource("PlaneMesh_4xowi")
+skeleton = NodePath("../..")
 
-[node name="building-l" parent="." unique_id=1745379497 instance=ExtResource("12_jsnrv")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.262516, 0, 1.2152176)
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=1556879442]
+transform = Transform3D(55, 0, 0, 0, 0.1, 0, 0, 0, 40, 0, 0, 0)
+shape = SubResource("BoxShape3D_a202f")
 
-[node name="Caller" type="Node3D" parent="." unique_id=2078068475 node_paths=PackedStringArray("receiver")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.927298, 2.492249, 0)
-script = ExtResource("13_wlxy5")
-receiver = NodePath("../Receiver")
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=857196309]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.9929371, -5.2331867)
+mesh = SubResource("BoxMesh_a202f")
 
-[node name="Receiver" type="Node3D" parent="." unique_id=1724583388]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.307751, 2.979813, 0)
-script = ExtResource("14_3v7ru")
+[node name="MeshInstance3D" type="MeshInstance3D" parent="MeshInstance3D" unique_id=1922944229]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.9929371, 12.686193)
+mesh = SubResource("BoxMesh_a202f")
