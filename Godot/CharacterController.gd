@@ -3,7 +3,10 @@ extends CharacterBody3D
 @export var move_speed: float = 6.0
 @export var accel: float = 20.0
 @export var decel: float = 25.0
-
+func _process(delta):
+	if Input.is_action_just_pressed("attack"):
+		print("Attack!!")
+		
 func _physics_process(delta: float) -> void:
 	var input_2d := Vector2.ZERO
 	input_2d.x = Input.get_action_strength("move_right") - Input.get_action_strength("move_left")
